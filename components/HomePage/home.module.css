@@ -1,0 +1,43 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(234, 130, 0, 0.6);
+  flex-flow: column;
+}
+
+.text {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+
+@keyframes time {
+    0%{
+        font-size: 80px;
+    }
+    25%{
+        font-size: 140px;
+    }
+    50%{
+        font-size: 200px;
+    }
+    75%{
+        font-size: 140px;
+    }
+    100%{
+        font-size: 80px;
+    }
+    
+}
+
+.timer{
+    font-size: 200px;
+    animation: time 1s linear infinite;
+    color: #fff;
+    text-align: center;
+
+}
+
